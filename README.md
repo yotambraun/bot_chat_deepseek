@@ -1,7 +1,10 @@
 # Bot Chat DeepSeek
 
-[![AWS S3](https://raw.githubusercontent.com/ajitgow1997/media/main/s3.png)](#)
-[![AWS SageMaker](https://raw.githubusercontent.com/ajitgow1997/media/main/sagemaker.png)](#)
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS-S3-blue.svg" alt="AWS S3" />
+  <img src="https://img.shields.io/badge/AWS-SageMaker-orange.svg" alt="AWS SageMaker" />
+  <img src="https://img.shields.io/badge/AWS-EC2%20Instances-yellow.svg" alt="AWS EC2" />
+</p>
 
 Welcome to **Bot Chat DeepSeek** – an AI-powered chatbot system designed to showcase the end-to-end pipeline of fine-tuning a Large Language Model (LLM) on AWS. This repository demonstrates how to prepare a custom dataset, fine-tune a language model, deploy it on AWS SageMaker, and interact with it via a Flask-based API.
 
