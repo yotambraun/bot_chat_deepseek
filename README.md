@@ -4,9 +4,6 @@
 
 Welcome to **Bot Chat DeepSeek** – an AI-powered chatbot system designed to showcase the end-to-end pipeline of fine-tuning a Large Language Model (LLM) on AWS. This repository demonstrates how to prepare a custom dataset, fine-tune a language model, deploy it on AWS SageMaker, and interact with it via a Flask-based API.
 
-### Model (download)
-[Download the fine-tuned model](C:\Users\yotam\code_projects\bot_chat_deepseek\model_\model)
-
 ### Why LoRA and Parameter-Efficient Tuning?
 Traditional full fine-tuning of Large Language Models can be computationally expensive and memory-intensive, especially as model sizes grow into the billions of parameters. Parameter-Efficient Fine-Tuning (PEFT) methods like LoRA (Low-Rank Adaptation of Large Language Models) address these challenges by freezing most of the model’s parameters and only training a small subset of additional weights. This significantly reduces:
 
@@ -38,8 +35,7 @@ I use the Supervised Fine-Tuning (SFT) approach from the TRL (Training Reinforce
    - [4. Model Interaction](#4-model-interaction)
 5. [Installation & Setup](#installation--setup)
 6. [Usage](#usage)
-7. [Contributing](#contributing)
-8. [License](#license)
+7. [License](#license)
 
 ---
 
