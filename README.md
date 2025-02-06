@@ -55,7 +55,7 @@ I use the Supervised Fine-Tuning (SFT) approach from the TRL (Training Reinforce
 ## Project Structure
 
 ```text
-.
+bot_chat_deepseek/
 ├── S3
 │   ├── download_dataset.py
 │   ├── format_the_dataset.py
